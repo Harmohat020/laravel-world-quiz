@@ -1,0 +1,57 @@
+body, html {
+  background: black;
+  letter-spacing: .2rem;
+  font-size: 15px;
+}
+
+.table-box {
+  width: 95%;
+}
+
+.py-4 {
+  background: black;
+  height: 100vh;
+}
+
+.page-link {
+  background-color: black;
+  color: #fcee0a;
+}
+
+.page-link:hover {
+  background-color: #333333;
+}
+
+.page-item.disabled .page-link {
+  background-color: black;
+  color: #fcee0a;
+}
+
+.page-item.disabled .page-link:hover {
+  background-color: #333333;
+}
+
+.page-item.active .page-link {
+  background-color: #333333;
+  color: #e91e63;
+}
+
+#countryTable_wrapper {
+  font-family: 'Maven Pro', sans-serif;
+  background-color: black;
+  color: #fcee0a;
+  margin: 10px 5px;
+}
+
+#countryTable_wrapper th {
+  color: #fcee0a;
+}
+
+#countryTable_wrapper td {
+  color: #e91e63;
+}
+
+#countryTable_wrapper tr:hover {
+  background-color: #333333;
+}
+/*# sourceMappingURL=table.css.map */

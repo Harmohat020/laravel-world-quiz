@@ -1,0 +1,55 @@
+@import './variables';
+
+body,html {
+    background:$bg-color;
+    letter-spacing: .2rem;
+    font-size: 15px;
+}
+.table-box{
+    // position: absolute;
+    // left: 50%;
+    // top: 50%;
+    // -webkit-transform: translate(-50%, -50%);
+    // transform: translate(-50%, -50%);
+    width: 95%;
+    
+      
+}
+.py-4{
+    background:$bg-color;
+    height: 100vh;
+}
+.page-link{
+    background-color:$bg-color;
+    color:$text-color;
+    &:hover{
+        background-color:$hover-color;
+    }
+}
+.page-item.disabled .page-link{
+    background-color:$bg-color;
+    color:$text-color;
+    &:hover{
+        background-color:$hover-color;
+    }
+}
+.page-item.active .page-link {
+    background-color:$hover-color;
+    color:$subText-color;
+}
+#countryTable_wrapper{
+    font-family: 'Maven Pro', sans-serif;
+    background-color: $bg-color;
+    color: $text-color;
+    margin: 10px 5px;
+ 
+    th{
+        color:$text-color;
+    }
+    td{
+        color: $subText-color;
+    }
+    tr:hover{
+        background-color:$hover-color;
+    }
+}

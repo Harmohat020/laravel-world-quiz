@@ -1,0 +1,100 @@
+body, html {
+  font-family: 'Maven Pro', sans-serif;
+  background: black;
+  color: #fcee0a;
+  letter-spacing: .2rem;
+  font-size: 15px;
+}
+
+.py-4 {
+  background: black;
+  height: 100vh;
+}
+
+.box-form {
+  width: 50%;
+  height: 50%;
+  text-align: center;
+  color: #fcee0a;
+  position: absolute;
+  left: 50%;
+  top: 50%;
+  -webkit-transform: translate(-50%, -50%);
+  transform: translate(-50%, -50%);
+  margin: 10px 5px;
+}
+
+.box-form .link-button-result {
+  color: #fcee0a;
+  padding: 25px 50px;
+  background: #e91e63;
+  font-size: 13px;
+  font-weight: 600;
+  letter-spacing: .1rem;
+  text-decoration: none;
+  text-transform: uppercase;
+  mix-blend-mode: normal;
+  -webkit-box-shadow: 0px 4px 4px rgba(0, 0, 0, 0.25);
+          box-shadow: 0px 4px 4px rgba(0, 0, 0, 0.25);
+  -webkit-clip-path: polygon(0% 0px, 0px 0%, calc(100% - 0%) 0px, 100% 20px, 100% calc(100% - 0px), calc(100% - 0px) 100%, 25px 100%, 0px calc(100% - 25px));
+          clip-path: polygon(0% 0px, 0px 0%, calc(100% - 0%) 0px, 100% 20px, 100% calc(100% - 0px), calc(100% - 0px) 100%, 25px 100%, 0px calc(100% - 25px));
+  position: absolute;
+  left: 50%;
+  top: 50%;
+  -webkit-transform: translate(-50%, -50%);
+  transform: translate(-50%, -50%);
+  margin: 10px 5px;
+  margin-right: 1em;
+}
+
+.box-form .link-button-learn {
+  color: #fcee0a;
+  padding: 25px 50px;
+  background: #e91e63;
+  font-size: 13px;
+  font-weight: 600;
+  letter-spacing: .1rem;
+  text-decoration: none;
+  text-transform: uppercase;
+  mix-blend-mode: normal;
+  -webkit-box-shadow: 0px 4px 4px rgba(0, 0, 0, 0.25);
+          box-shadow: 0px 4px 4px rgba(0, 0, 0, 0.25);
+  -webkit-clip-path: polygon(0% 0px, 0px 0%, calc(100% - 0%) 0px, 100% 20px, 100% calc(100% - 0px), calc(100% - 0px) 100%, 25px 100%, 0px calc(100% - 25px));
+          clip-path: polygon(0% 0px, 0px 0%, calc(100% - 0%) 0px, 100% 20px, 100% calc(100% - 0px), calc(100% - 0px) 100%, 25px 100%, 0px calc(100% - 25px));
+}
+
+.box-form .learn-button-box {
+  position: absolute;
+  left: 70%;
+  margin-top: 15%;
+}
+
+.box-form .again-button-box {
+  position: relative;
+  right: 25%;
+  margin-top: 15%;
+}
+
+.submit-button {
+  margin-top: 25%;
+  color: #fcee0a;
+  padding: 25px 50px;
+  background: #e91e63;
+  font-size: 13px;
+  font-weight: 600;
+  letter-spacing: .1rem;
+  text-decoration: none;
+  text-transform: uppercase;
+  mix-blend-mode: normal;
+  -webkit-box-shadow: 0px 4px 4px rgba(0, 0, 0, 0.25);
+          box-shadow: 0px 4px 4px rgba(0, 0, 0, 0.25);
+  -webkit-clip-path: polygon(0% 0px, 0px 0%, calc(100% - 0%) 0px, 100% 20px, 100% calc(100% - 0px), calc(100% - 0px) 100%, 25px 100%, 0px calc(100% - 25px));
+          clip-path: polygon(0% 0px, 0px 0%, calc(100% - 0%) 0px, 100% 20px, 100% calc(100% - 0px), calc(100% - 0px) 100%, 25px 100%, 0px calc(100% - 25px));
+}
+
+.select {
+  margin-top: 15%;
+  background-color: black;
+  color: #e91e63;
+}
+/*# sourceMappingURL=formPage.css.map */

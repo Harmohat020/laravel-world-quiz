@@ -1,0 +1,50 @@
+$bg-color: black;
+$text-color:#fcee0a;
+$subText-color:#e91e63;
+$btn-bg:#e91e63;
+$btn-corner-cut: 
+polygon(
+    /* top left */
+    0% 0px,
+    0px 0%,
+    /* top right */
+    calc(100% - 0%) 0px,
+    100% 20px,
+    /*Bottom right */
+    100% calc(100% - 0px),
+    calc(100% - 0px) 100%,
+    /*Bottom Left */
+    25px 100%,
+    0px calc(100% - 25px)
+);;
+
+@mixin hoverButton{
+    -webkit-box-shadow: 6px 3px 33px 18px rgba(233,30,99,1);
+    -moz-box-shadow: 6px 3px 33px 18px rgba(233,30,99,1);
+    box-shadow: 6px 3px 33px 18px rgba(233,30,99,1);
+}
+
+@mixin buttonLinks {
+    color:$text-color;
+    padding: 25px 50px;
+    background:$btn-bg;
+    font-size: 13px;
+    font-weight: 600;
+    letter-spacing: .1rem;
+    text-decoration: none;
+    text-transform: uppercase;
+    mix-blend-mode: normal;
+    box-shadow: 0px 4px 4px rgba(0, 0, 0, 0.25);
+    
+   
+    clip-path: $btn-corner-cut;    
+}
+
+@mixin center{
+    position: absolute;
+    left: 50%;
+    top: 50%;
+    -webkit-transform: translate(-50%, -50%);
+    transform: translate(-50%, -50%);
+    margin: 10px 5px;
+}

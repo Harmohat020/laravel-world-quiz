@@ -1,0 +1,5 @@
+--When deploying the site, the 'url' in the conditions in 'if' statement need to change.
+
+--In app->providers->AppServiceProvider.php are the queries, because I wanted to send the data to multiple views
+
+--Change routes from web.php into the controllers
