@@ -1,6 +1,18 @@
-<h6>Choose Capital for the quiz</h6>
+<h5>Choose Capital for the quiz</h5>
     
 ![Choose Capital for the quiz](https://github.com/Harmohat020/laravel-world-quiz/blob/master/site-images-examples/choose-capital-option.png)
+
+<h5>Quiz question example (Europe)</h5>
+    
+![Choose Capital for the quiz](https://github.com/Harmohat020/laravel-world-quiz/blob/master/site-images-examples/europe-quiz.png)
+
+<h5>Quiz question result example (Europe)</h5>
+    
+![Choose Capital for the quiz](https://github.com/Harmohat020/laravel-world-quiz/blob/master/site-images-examples/europe-quiz-result.png)
+
+<h5>Quiz Learn the capitals (Europe)</h5>
+    
+![Choose Capital for the quiz](https://github.com/Harmohat020/laravel-world-quiz/blob/master/site-images-examples/europe-learn.png)
 
 ## About Laravel
 
