@@ -1,3 +1,4 @@
+<h6>Choose Capital for the quiz</h6>
 ![Choose Capital for the quiz](https://github.com/Harmohat020/laravel-world-quiz/blob/master/site-images-examples/choose-capital-option.png)
 ## About Laravel
 
