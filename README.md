@@ -1,5 +1,7 @@
 <h6>Choose Capital for the quiz</h6>
+    
 ![Choose Capital for the quiz](https://github.com/Harmohat020/laravel-world-quiz/blob/master/site-images-examples/choose-capital-option.png)
+
 ## About Laravel
 
 Laravel is a web application framework with expressive, elegant syntax. We believe development must be an enjoyable and creative experience to be truly fulfilling. Laravel takes the pain out of development by easing common tasks used in many web projects, such as:
